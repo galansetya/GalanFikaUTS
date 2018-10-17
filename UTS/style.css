@@ -1,0 +1,317 @@
+/**header**/
+.Header {
+    background: #fff;
+    display: block;
+    height: 119px;
+    width: 100%;
+    border-top: 5px solid #ffea05;
+    border-bottom: 5px solid #ffea05;
+}
+.HeaderKolom{
+	width: 100%;
+}
+.KolomLogo{
+	width: 30%;
+	float: left;
+}
+.KolomLogo img{
+	width: 360px;
+	height: 78px;
+	margin: 21px 15px;
+}
+/** menu **/
+.KolomMenu{
+	width: 70%;
+	display: block;
+	float: right;
+	margin: 45px 0px;
+}
+
+.KolomMenu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.KolomMenu ul li{
+	display: inline-block;
+	margin: 5px 40px;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: bold;
+}
+.KolomMenu ul li a{
+	text-decoration: none;
+	display: block;
+}
+.KolomMenu ul li a:hover{
+	border-top:5px solid #000;
+	background-color: blue;
+}
+.KolomMenu ul li ul li{
+	display: none;
+}
+.KolomMenu ul li:hover ul li{
+	display: block;
+}
+
+/** slider **/
+.sliderGambar{
+	width: 50%;
+	float: left;
+}
+.sliderGambar img {
+    width: 94%;
+    margin: 5% 0px;
+}
+/**tentang**/
+.about{
+	width: 50%;
+	float: right;
+	display: block;
+}
+.Slider {
+    width: 100%;
+}
+
+.sliderWrapper {
+    clear: both;
+    background: #07133f;
+    height: 545px;
+    color: #fff;
+	border-bottom: 5px solid #fff30d;
+}
+/** slider Photo **/
+.sliderPhoto ul{
+	list-style: none;
+	margin: -33px 6%;
+	padding: 0;
+}
+.sliderPhoto ul li{
+	display: inline-block;
+}
+.sliderPhoto ul > li > img{
+	width: 100%;
+	height: 100px;
+
+}
+/** container **/
+.topContainer {
+    width: 100%;
+    display: block;
+    border-bottom: 5px solid #fff30d;
+}
+/**title container **/
+.titleContainer h1{
+	text-align: center;
+	font-weight: bold;
+	clear: both;
+	display: block;
+}
+.titleContainer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.titleContainer ul li{
+	display: inline-block;
+	margin-left: 33px;
+    margin-right: 29px;
+} 
+.container h1{
+	margin-top: 10px;
+}
+.containerPhoto img{
+	width: 250px;
+	height: 250px;
+}
+.titleContainer,
+.topContainer{
+	clear: both;
+	display: block;
+}
+.containerName {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 2px 0px;
+    text-align: center;
+}
+.Jabatan {
+    text-align: center;
+    font-size: 17px;
+    font-family: initial;
+    font-style: italic;
+    margin-top: 10px;
+
+}
+/** middle **/
+.topMiddle {
+    width: 100%;
+    display: block;
+    border-bottom: 5px solid #fff30d;
+}
+.titleMiddle h1{
+	text-align: center;
+	font-weight: bold;
+	clear: both;
+	display: block;
+}
+.titleMiddle ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.titleMiddle ul li{
+	display: inline-block;
+	margin-left: 33px;
+    margin-right: 29px;
+} 
+.middle h1{
+	margin-top: 10px;
+}
+.photoMiddle img{
+	width: 250px;
+	height: 250px;
+}
+.titleMiddle,
+.topMiddle{
+	clear: both;
+	display: block;
+}
+.middleName {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 2px 0px;
+    text-align: center;
+}
+.middleJabatan {
+    text-align: center;
+    font-size: 25px;
+    font-family: initial;
+    font-style: italic;
+    margin-top: 10px;
+
+}
+
+/* Tabs Java Script */
+body, html {
+  height: 75%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: white;
+  color: navy;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #2D1380;
+  color: white;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#TugasPokok {background-color: white}
+#TugasPokok h3{
+	font-family: raleway;
+	font-size: 30px;
+}
+#TugasPokok p{
+	font-family: raleway;
+	font-size: 20px;
+}
+
+#Motto {background-color: white;}
+#Motto h3{
+	font-family: raleway;
+	font-size: 30px;
+}
+#Motto p{
+	font-family: raleway;
+	font-style: italic;
+	font-size: 20px;
+}
+
+#Tujuan {background-color: white;}
+#Tujuan h3{
+	font-family: raleway;
+	font-size: 30px;
+}
+#Tujuan p{
+	font-family: raleway;
+	font-size: 20px;
+}
+#Fungsi {background-color: white;}
+#Fungsi h3{
+	font-family: raleway;
+	font-size: 30px;
+}
+#Fungsi p{
+	font-family: raleway;
+	font-style: italic;
+	font-size: 20px;
+}
+
+#Organisasi {background-color: white;}
+#Organisasi h3{
+	font-family: raleway;
+	font-size: 30px;
+}
+#Organisasi p{
+	font-family: raleway;
+	font-size: 20px;
+}
+
+#VisidanMisi {background-color: white}
+#VisidanMisi{
+	font-family: raleway;
+	
+}
+#VisidanMisi h3{
+	font-family: raleway;
+	font-size: 30px;
+}
+#VisidanMisi p{
+	font-family: raleway;
+	font-style: italic;
+	font-size: 20px;
+}
+#ProgramStudi {background-color: white}
+#ProgramStudi h3{
+	font-family: raleway;
+	font-size: 30px;
+}
+#ProgramStudi p{
+	font-family: raleway;
+	font-size: 20px;
+}
+#Dekanat {background-color: white}
+#Dekanat h3{
+	font-family: raleway;
+	font-size: 30px;
+}
+#Tugas {background-color: white}
+#Tugas h3{
+	font-family: raleway;
+	font-size: 30px;
+}
+#Tugas p{
+	font-family: raleway;
+	font-size: 20px;
+	font-style: italic;
+}
+
